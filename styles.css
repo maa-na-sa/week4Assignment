@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  div.container{
+    border: 5px solid rgba(127, 12, 12, 0.692);
+    width: 83%;
+    margin: 0 auto 0 auto;
+  }
+  header{
+    background-color: rgba(192, 182, 142, 0.745);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2.5em;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+  }
+  .hero img{
+    width: 100%;
+  }
+  div.left, div.middle, div.right{
+    border: 2px solid rgba(51, 88, 56, 0.692);
+    width: 30%;
+  }
+  aside img{
+    width: 100%;
+  }
+  aside{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav{
+    background-color: rgb(74, 68, 68)
+  }
+  ul{
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+    width: 150px;
+    border: 2px solid rgb(245, 245, 245);
+    line-height: 3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+  }
+  a{
+    color: rgb(200, 215, 255);
+    text-decoration: none;
+    border: 1px solid rgb(127, 12, 12, 0.692);
+    display: block;
+  }
+  footer{
+    color: rgb(51, 88, 56);
+    margin-inline: 3%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+  }
